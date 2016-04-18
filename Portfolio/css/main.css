@@ -1,0 +1,232 @@
+html {
+	background-color: black;
+}
+
+body {
+	background-color: #06112D;
+	margin: 0 auto 0 auto;
+}
+
+#nav {
+	border-bottom: 1px solid teal;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+ul{
+	margin-top: 5px;
+
+}
+
+li {
+	margin-left: 2px;
+}
+li:hover {
+	margin-left: 2px;
+}
+
+
+#aboutcontain {
+	background-color: #333;
+	border-color: #1a1a1a;
+	padding: 20px;
+	box-shadow: 1px 1px 2px 1px teal;
+	margin-top: 30px;
+
+}
+
+
+#me {
+	background-color: #394444;
+	margin: 10px 0 0 0;
+	border-color: #1a1a1a;
+	padding: 20px;
+	border-radius: 4px;
+}
+
+h1{
+	color: white;
+}
+
+
+h2{
+	color: white;
+}
+
+h3{
+	color: white;
+
+}
+p {
+	color: white;
+	margin: 4px;
+	text-align: left;
+	font-family: "Lucida Console", Times, serif;
+
+}
+
+
+.container-fluid .jumbotron  {
+	position: relative;
+	 width: 100%;
+	 min-height: 500px;
+	 text-align: center;
+	 color: #fff;
+	 background-image: url(http://s1.funon.cc/img/orig/201406/10/5396be86c329c.jpg);
+	 background-position: center;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 background-size: cover;
+	 -o-background-size: cover;
+	 margin-top: 53px;
+	 margin-bottom: 0;
+	border-bottom: 1px solid teal;
+	border-radius: 0;
+}
+
+
+
+img {
+border-radius: 50%;
+max-width:66%;
+margin-top: 6px;
+margin-bottom: 6px;
+
+}
+
+#divider {
+	height: 100px;
+	background-color: #111;
+		border-top: 1px solid teal;
+
+}
+
+#divider1 {
+	height: 100px;
+	background-color: #111;
+
+}
+
+#divider2 {
+	height: 100px;
+	background-color: #111;
+	border-top: 4px solid teal;
+
+}
+#piccontain {
+	background-color: #333;
+	height: 340px;
+	overflow: hidden;
+	border-radius: 3px;
+	border-color: #1a1a1a;
+	box-shadow: 1px 1px 1px 2px teal;
+	margin-top: 30px;
+
+}
+
+#lorem {
+margin-top: 20px;
+text-align: center;
+}
+
+#pic {
+	background-color: #394444;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px;
+	padding: 2px;
+  border-radius: 3px;
+	height: 300px;
+	overflow: hidden;
+	border-color: #1a1a1a;
+}
+
+#rowAbout {
+	background-color: #1a1a1a;
+
+
+}
+
+#skillFrame {
+	background-color: #1a1a1a;
+
+	height: 750px;
+}
+
+#rowSkillz {
+	background-image: url('http://www.wallpaperup.com/uploads/wallpapers/2014/09/26/456811/6e09b6303b949bc0231ebbc51d7988f3.jpg');
+	background-color: #0d0d0d;
+  border-color: #536362;
+	margin-top: 65px;
+	margin-bottom: 65px;
+	height: 620px;
+	border-radius: 4px;
+}
+
+#skillzTitle, {
+	background-color: #1a1a1a;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#aboutTitle {
+	background-color: #111;
+	text-align: center;
+
+}
+
+#skillzContain {
+	height: 460px;
+	background-color: rgba(13,13,13,0.9);
+	margin-top: 10px;
+	margin-bottom: 40px;
+	border-color: black;
+
+}
+
+
+#skillzTitle {
+	text-align:center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgba(13,13,13,0.9);
+	border-radius: 4px;
+}
+
+
+#rowRecent {
+  background-color: #0d0d0d;
+  height: 400px ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-color: #536362;
+	border-radius: 0px;
+	margin-top: 1px;
+	border-top: 6px solid  #004080;
+}
+
+
+
+#recentContain {
+	height:300px;
+	background-color:#3333ff;
+	margin-top: 40px;
+	font-size: 100px;
+	color: white;
+	text-align: center;
+
+}
+
+#skill1, #skill2, #skill3, #skill4, #skill5, #skill6, #skill7, #skill8 {
+	height: 80px;
+	background-color: #333;
+	border: 1px solid #1a1a1a;
+	text-align: left;
+	border-radius: 6px;
+}
+
+#skillzContain .row{
+	height: 80px;
+	margin-bottom: 25px;
+}
