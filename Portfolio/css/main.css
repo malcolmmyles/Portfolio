@@ -28,22 +28,15 @@ li:hover {
 }
 
 
-#aboutcontain {
-	background-color: #333;
-	border-color: #1a1a1a;
-	padding: 20px;
-	box-shadow: 1px 1px 2px 1px teal;
-	margin-top: 30px;
-
-}
-
 
 #me {
 	background-color: #394444;
-	margin: 10px 0 0 0;
 	border-color: #1a1a1a;
 	padding: 20px;
-	border-radius: 4px;
+	color: white;
+	text-align: left;
+	font-family: "Lucida Console", Times, serif;
+
 }
 
 h1{
@@ -57,13 +50,6 @@ h2{
 
 h3{
 	color: white;
-
-}
-p {
-	color: white;
-	margin: 4px;
-	text-align: left;
-	font-family: "Lucida Console", Times, serif;
 
 }
 
@@ -88,14 +74,6 @@ p {
 
 
 
-img {
-border-radius: 50%;
-max-width:66%;
-margin-top: 6px;
-margin-bottom: 6px;
-
-}
-
 #divider {
 	height: 100px;
 	background-color: #111;
@@ -115,35 +93,11 @@ margin-bottom: 6px;
 	border-top: 4px solid teal;
 
 }
-#piccontain {
-	background-color: #333;
-	height: 340px;
-	overflow: hidden;
-	border-radius: 3px;
-	border-color: #1a1a1a;
-	box-shadow: 1px 1px 1px 2px teal;
-	margin-top: 30px;
 
-}
-
-#lorem {
-margin-top: 20px;
-text-align: center;
-}
-
-#pic {
-	background-color: #394444;
-	margin-top: 10px;
-	box-shadow: 2px 2px 2px;
-	padding: 2px;
-    border-radius: 3px;
-	height: 300px;
-	overflow: hidden;
-	border-color: #1a1a1a;
-}
 
 #rowAbout {
 	background-color: #1a1a1a;
+	height: 1000px;
 
 
 }
@@ -152,6 +106,10 @@ text-align: center;
 	background-color: #1a1a1a;
 
 	height: 750px;
+}
+
+#listContain {
+	background-color: #333;
 }
 
 #rowSkillz {
@@ -233,8 +191,15 @@ h1 {
 	margin-bottom: 25px;
 }
 
+#skillList  {
+	margin: 0px;
+}
+
 #skillList li {
 	background-color:#292A2D;
 	border-color: black;
 	color: white;
+	height: 84px;
 }
+
+

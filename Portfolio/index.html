@@ -30,30 +30,20 @@
 
     <div class="row" id='rowAbout'>
 
-      <div class="container-fluid">
-        <div class="container-fluid">
 
-          <div class='col-md-8 col-md-8 well' id='aboutcontain'>
+          
             <h3>Hello World</h3>
+			
+			<div class ='col-md-10 col-md-offset-1'>
             <p class='well' id='me'>My name is Malcolm Myles. I am a 23 year old Bay Area native who has always had a passion for technology. As such, its been a great experience growing up in a place where new technologies are created and developed every day; be it web, software
               or otherwise. Being so close to these things in some ways, shaped who I am today. I come here today as an aspiring web developer. While I classify myself more as a front end, I am always excited to learn new things and expand my library
               of knowledge. Below are a couple of projects that I have previously worked on as well as skills that I have learned as a developer. If you have any questions to ask me, all of my contact information is available on my contact page. Until
               then, have a great day.</p>
-          </div>
+				</div>
+				
 
-          <div class=" col-md-3 col-md-offset-1 well container" id='piccontain'>
-            <div id='frame'>
-              <div class='well' id='pic'>
-                <div class='col-md-12'><img class='col-md-6 col-md-offset-3' id="portrait" src="img\Untitled-2.jpg">
-                  <ln>
-                    </img>
-                </div>
-                <p id='lorem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget finibus nibh, at viverra mauris. </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
+          
+      
       </div>
     </div>
         <div class = 'row' id='divider1'></div>
@@ -68,8 +58,8 @@
 		<div id ='services'><h3>What I can do for you</h3></div>
 		
          
-			<div class ='container-fluid'>
-		 <ul class ='list-group' id ='skillList' style = 'margin-top: 40px'>
+			
+		 <ul class ='list-group' id ='skillList'>
             <li class="list-group-item">HTML</li>
             <li class="list-group-item">CSS</li>
 			<li class="list-group-item">Javascript</li>
@@ -78,7 +68,7 @@
             <li class="list-group-item">Git</li>
             
           </ul>
-          </div>
+      
 		  </div>
         </div>
       </div>
@@ -97,4 +87,10 @@
 
 
   <script src='js\bootstrap.min.js' </script>
+  <script>var jumboHeight = $('.jumbotron').outerHeight();
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+}
+</script>
     < /body>
