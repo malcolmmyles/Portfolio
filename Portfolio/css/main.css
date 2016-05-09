@@ -45,6 +45,24 @@ li:hover {
 #sMedia  {
 	height: 80px;
 	background-color: teal;
+	border-radius: 3px;
+}
+
+#sMediaPush  {
+	height: 40px;
+}
+
+#sMedia img  {
+	text-align: center;
+	max-height: 40px;
+}
+
+#sMedia h3{
+	color: white;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+
 }
 #me {
 	background-color: #394444;
