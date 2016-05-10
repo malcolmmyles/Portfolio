@@ -4,24 +4,33 @@ html {
 }
 
 body {
-	background-color: #06112D;
+	background-color: #1a1a1a;
 	margin: 0 auto 0 auto;
 	max-width: 1680px;
 }
+
 
 #nav {
 	border-bottom: 1px solid teal;
 	margin-left: auto;
 	margin-right: auto;
+		max-width: 1680px;
 }
 
 
-#sMedContainer h3{
+
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	border-radius: 4px;
 	color: white;
-	margin: 6px 0px 0px 0px;
-
 }
 
+
+h2{
+	color: white;
+}
 
 ul{
 	margin-top: 5px;
@@ -35,6 +44,23 @@ li:hover {
 	margin-left: 2px;
 }
 
+
+
+#rowAbout h3 {
+	color: white;
+	margin-top: 5px;
+}
+
+}
+
+#rowRecent {
+	color: white;
+	height: 600px;
+	background-color: #444;
+
+}
+
+
 #descriptionContainer {
 	background-color: #394444;
 	font-size: 20px;
@@ -45,6 +71,7 @@ li:hover {
 	border-radius: 2px;
 	padding-bottom: 10px;
 	height: 260px;
+	overflow-y: scroll;
 }
 
 #sMedContainer {
@@ -56,13 +83,13 @@ li:hover {
 }
 
 
-h1{
-	color: white;
-}
 
 
-h2{
-	color: white;
+#rowAbout {
+	background-color: #1a1a1a;
+	height: 550px;
+
+
 }
 
 #rowSkillz h3{
@@ -86,7 +113,6 @@ h2{
 	 -o-background-size: cover;
 	 margin-top: 53px;
 	 margin-bottom: 0;
-	border-bottom: 1px solid teal;
 	border-radius: 0;
 }
 
@@ -95,73 +121,8 @@ h2{
 #divider {
 	height: 100px;
 	background-color: #111;
-		border-top: 1px solid teal;
+		border-top: 1px solid white;
 
-}
-
-#divider1 {
-	height: 100px;
-	background-color: #111;
-
-}
-
-#divider2 {
-	height: 100px;
-	background-color: #111;
-	border-top: 4px solid teal;
-
-}
-
-
-#rowAbout {
-	background-color: #1a1a1a;
-	height: 1000px;
-
-
-}
-
-#myPicture {
-    max-width: 100%;
-    height: auto;
-	border-radius: 50%;
-	margin-top: 50px;
-	
-}
-
-#skillFrame {
-	background-color: #1a1a1a;
-	height: 750px;
-}
-
-#listContain {
-	background-color: #333;
-}
-
-#rowSkillz {
-	background-image: url('http://www.wallpaperup.com/uploads/wallpapers/2014/09/26/456811/6e09b6303b949bc0231ebbc51d7988f3.jpg');
-	background-color: #0d0d0d;
-	border-color: #536362;
-	height: 540px;
-	border-radius: 4px;
-}
-
-#skillzTitle {
-	background-color: #1a1a1a;
-	margin-top: 10px;
-	text-align: center;
-}
-
-#services {
-	background-color: #222;
-	text-align: center;
-	height: 40px; 
-}
-
-#services h3 {
-text-align: center;
-margin: 0px 0px 0px 0px;
-top: 6.5px;
-position: relative;
 }
 
 #aboutTitle {
@@ -170,61 +131,29 @@ position: relative;
 
 }
 
-#skillzContain {
-	height: 540px;
-	background-color: rgba(13,13,13,0.9);
-	margin-bottom: 40px;
-	border-color: black;
-	padding: 0;
+
+#myPicture {
+	border-radius: 50%;
 
 }
+	
 
 
-h1 {
+#pictureContainer {
+	height: 320px;
+	background-color: #111;
+	margin-top: 70px;
+	border-radius: 10%;
 	text-align: center;
-	margin-bottom: 20px;
-	border-radius: 4px;
-}
-
-
-#rowRecent {
-  background-color: #0d0d0d;
-  height: 400px ;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  border-color: #536362;
-	border-radius: 0px;
-	margin-top: 1px;
-	border-top: 6px solid #004080;
-}
-
-
-
-#recentContain {
-	height:300px;
-	background-color:#3333ff;
-	margin-top: 400px;
-	font-size: 100px;
-	color: white;
-	text-align: center;
+	vertical-align: 
 
 }
 
 
-#skillzContain .row{
-	height: 40px;
-	margin-bottom: 25px;
-}
 
-#skillList  {
-	margin: 0px;
-}
 
-#skillList li {
-	background-color:#292A2D;
-	border-color: black;
-	color: white;
-	height: 84px;
-}
+
+
+
 
 
