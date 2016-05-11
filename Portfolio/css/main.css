@@ -37,66 +37,16 @@ ul{
 
 }
 
-li {
-	margin-left: 2px;
-}
-li:hover {
-	margin-left: 2px;
-}
 
 
 
-#rowAbout h3 {
-	color: white;
-	margin-top: 5px;
-}
 
-
-#rowRecent {
-	color: white;
-	height: 600px;
-	background-color: #444;
+#divider {
+	height: 100px;
+	background-color: #111;
+		border-top: 1px solid teal;
 
 }
-
-
-#descriptionContainer {
-	background-color: #394444;
-	font-size: 20px;
-	color: white;
-	text-align: left;
-	font-family: "Calibri", Times, serif;
-	margin-top: 70px;
-	border-radius: 2px;
-	padding-bottom: 10px;
-	height: 260px;
-	overflow-y: scroll;
-}
-
-#sMedContainer {
-	background-color: black;
-	font-size: 20px;
-	color: white;
-	font-family: "Calibri", Times, serif;
-	height: 60px;
-}
-
-
-
-
-#rowAbout {
-	background-color: #1a1a1a;
-	height: 550px;
-
-
-}
-
-#rowSkillz h3{
-	color: white;
-	text-align: center;
-
-}
-
 
 .container-fluid .jumbotron  {
 	position: relative;
@@ -117,10 +67,10 @@ li:hover {
 
 
 
-#divider {
-	height: 100px;
-	background-color: #111;
-		border-top: 1px solid white;
+#rowAbout {
+	background: #222;
+	padding-bottom: 30px;
+
 
 }
 
@@ -130,12 +80,10 @@ li:hover {
 
 }
 
-
-#myPicture {
-	border-radius: 50%;
-
+#rowAbout h3 {
+	color: white;
+	margin-top: 5px;
 }
-	
 
 
 #pictureContainer {
@@ -144,9 +92,70 @@ li:hover {
 	margin-top: 70px;
 	border-radius: 10%;
 	text-align: center;
-	vertical-align: 
 
 }
+
+
+#myPicture {
+	border-radius: 50%;
+
+}
+
+
+#descriptionContainer {
+	background-color: #394444;
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	font-family: "Calibri", Times, serif;
+	margin-top: 70px;
+	border-radius: 2px;
+	padding-bottom: 10px;
+}
+
+
+#sMedContainer {
+	background-color: black;
+	font-size: 20px;
+	color: white;
+	font-family: "Calibri", Times, serif;
+}
+
+
+#rowRecent {
+	color: white;
+	height: 600px;
+	background-color: #1a1a1a;
+
+}
+
+#recentContent {
+	height: 500px;
+	margin-top: 80px;
+	background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
 
 
 
