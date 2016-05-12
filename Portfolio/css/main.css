@@ -1,14 +1,17 @@
 html {
-	background-color: black;
+	background-color: #111;
 	
 }
 
 body {
-	background-color: #1a1a1a;
+	background-color: #151414;
 	margin: 0 auto 0 auto;
 	max-width: 1680px;
 }
 
+#header {
+	background-color: #111;
+}
 
 #nav {
 	border-bottom: 1px solid teal;
@@ -17,14 +20,16 @@ body {
 		max-width: 1680px;
 }
 
-
-
+p {
+	color: #C3C3C3;
+}
 
 h1 {
 	text-align: center;
 	margin-bottom: 20px;
 	border-radius: 4px;
 	color: white;
+	text-shadow: 4px 4px #222;
 }
 
 
@@ -38,13 +43,9 @@ ul{
 }
 
 
-
-
-
 #divider {
-	height: 100px;
 	background-color: #111;
-		border-top: 1px solid teal;
+
 
 }
 
@@ -52,6 +53,7 @@ ul{
 	position: relative;
 	 width: 100%;
 	 min-height: 500px;
+	 max-width: 100%
 	 text-align: center;
 	 color: #fff;
 	 background-image: url(http://s1.funon.cc/img/orig/201406/10/5396be86c329c.jpg);
@@ -63,22 +65,20 @@ ul{
 	 margin-top: 53px;
 	 margin-bottom: 0;
 	border-radius: 0;
+	border-bottom: 1px solid teal;
 }
 
-
+#title {
+	margin-bottom: 40px;
+}
 
 #rowAbout {
-	background: #222;
-	padding-bottom: 30px;
+	background: -webkit-linear-gradient(#171F21, #171F21,#171F21, #171A21);
+	padding-bottom: 60px;
 
 
 }
 
-#aboutTitle {
-	background-color: #111;
-	text-align: center;
-
-}
 
 #rowAbout h3 {
 	color: white;
@@ -89,11 +89,15 @@ ul{
 #pictureContainer {
 	height: 320px;
 	background-color: #111;
-	margin-top: 70px;
-	border-radius: 10%;
+	margin-top: 55px;
+	border-radius: 1%;
 	text-align: center;
+	background-image: url('https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkQAAAAJGU0OGNhMjg2LWZhYTItNDMxYy1iZmY0LTI0ZTFkZTRiNTE4YQ.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 
 }
+
 
 
 #myPicture {
@@ -103,14 +107,14 @@ ul{
 
 
 #descriptionContainer {
-	background-color: #394444;
-	font-size: 20px;
+	background-color: #151414;
+	font-size: 1.3em;
 	color: white;
 	text-align: left;
 	font-family: "Calibri", Times, serif;
 	margin-top: 70px;
 	border-radius: 2px;
-	padding-bottom: 10px;
+	padding: 10px;
 }
 
 
@@ -121,19 +125,24 @@ ul{
 	font-family: "Calibri", Times, serif;
 }
 
+#quote {
+	font-size: 3.5em;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
 
-#rowRecent {
+#sectionChange {
 	color: white;
-	height: 600px;
+	height: 70px;
 	background-color: #1a1a1a;
 
 }
 
-#recentContent {
-	height: 500px;
-	margin-top: 80px;
-	background-color: white;
+#projects {
+height: 800px;
+background-color: #171A21;
 }
+
 
 
 
