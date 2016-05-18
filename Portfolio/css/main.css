@@ -34,6 +34,9 @@ h1 {
 h2 {
   color: white;
 }
+h3 {
+  color: white;
+}
 
 ul {
   margin-top: 5px;
@@ -117,7 +120,7 @@ ul {
   font-size: 3.5em;
   margin-top: 30px;
   margin-bottom: 30px;
-     
+
 }
 
 
@@ -130,4 +133,20 @@ ul {
 #divider {
     height: 100px;
     background-color: #151414;
+}
+
+#skill{ 
+height: 200px;
+background-color: dimgray;
+}
+
+#skillFrame{
+    height: 80px;
+    background-color: darkorange;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#skillDesc {
+    background-color: blueviolet;
 }
