@@ -136,17 +136,15 @@ ul {
 }
 
 #skill{ 
-height: 200px;
-background-color: dimgray;
-}
-
-#skillFrame{
-    height: 80px;
-    background-color: darkorange;
-    border-radius: 5px;
-    text-align: center;
+background-color: #7F968A;
 }
 
 #skillDesc {
-    background-color: blueviolet;
+    background-color: #333;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#skillGlyph {
 }
