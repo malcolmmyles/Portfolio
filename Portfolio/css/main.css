@@ -1,3 +1,15 @@
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
 html {
   background-color: azure;
 }
@@ -136,15 +148,17 @@ ul {
 }
 
 #skill{ 
-background-color: #7F968A;
+background-color: #24A793;
 }
 
 #skillDesc {
-    background-color: #333;
+    background-color: rgb(14, 62, 66);
     margin-top: 20px;
     padding: 10px;
     border-radius: 4px;
 }
 
-#skillGlyph {
+#rowProjects {
+    height: 1000px;
+    background: -webkit-linear-gradient(#171F21,#171F21, #171F21, #171A21);
 }
