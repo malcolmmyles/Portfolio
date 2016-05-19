@@ -60,7 +60,6 @@ ul {
   position: relative;
   width: 100%;
   min-height: 500px;
-  max-width: 100%;
   text-align: center;
   color: #fff;
   background-image: url(http://weswes.xyz/256/Nebula-Wallpaper-For-Android-OzIySk.jpg);
@@ -73,6 +72,7 @@ ul {
   margin-bottom: 0;
   border-radius: 0;
   border-bottom: 1px solid teal;
+    
 }
 
 #title {
@@ -122,10 +122,9 @@ ul {
 }
 
 #quoteBox {
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .6);
     margin-top: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-bottom: 50px;
 }
 
 #quote {
@@ -139,7 +138,7 @@ ul {
 #rowSkills {
   height: 800px;
   background-color: #171A21;
-  background: -webkit-linear-gradient(#171A21,#171A21, #171A21, #171F21);
+  background: -webkit-linear-gradient(#171A21,#171A21, #171F21, #171F21);
 }
 
 #divider {
@@ -161,4 +160,15 @@ background-color: #24A793;
 #rowProjects {
     height: 1000px;
     background: -webkit-linear-gradient(#171F21,#171F21, #171F21, #171A21);
+}
+
+#projFrame {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#projPicture {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
