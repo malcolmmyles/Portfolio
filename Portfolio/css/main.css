@@ -136,7 +136,6 @@ ul {
 
 
 #rowSkills {
-  height: 800px;
   background-color: #171A21;
   background: -webkit-linear-gradient(#171A21,#171A21, #171F21, #171F21);
 }
@@ -158,8 +157,11 @@ background-color: #24A793;
 }
 
 #rowProjects {
-    height: 1000px;
     background: -webkit-linear-gradient(#171F21,#171F21, #171F21, #171A21);
+}
+
+#projects {
+margin-bottom: 80px;
 }
 
 #projFrame {
