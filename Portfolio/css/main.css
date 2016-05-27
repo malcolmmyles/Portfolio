@@ -98,7 +98,7 @@ ul {
 }
 
 #myPicture {
-  border-radius: 50%;
+ 
 }
 
 #descriptionContainer {
@@ -160,13 +160,8 @@ background-color: #24A793;
 margin-bottom: 80px;
 }
 
-#projFrame {
-    padding-left: 0;
-    padding-right: 0;
-}
 
 #projPicture {
     width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    margin-bottom: 30px;
 }
