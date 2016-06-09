@@ -154,11 +154,12 @@ margin-bottom: 80px;
     margin-bottom: 30px;
 }
 
-#footer {
+#rowContact {
     background-color: darkslategrey;
     height: 400px;
+      background: -webkit-linear-gradient(#171F21, #171F21, #171F21, #171A21);
 }
 
-#footerOption {
+#contactOption {
 text-align: center;
     )
